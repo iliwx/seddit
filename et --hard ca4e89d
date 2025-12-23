@@ -1,0 +1,26 @@
+[33m9307951[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: reset: moving to origin/main
+[33m3ef7fb1[m HEAD@{1}: reset: moving to HEAD
+[33m3ef7fb1[m HEAD@{2}: reset: moving to HEAD
+[33m3ef7fb1[m HEAD@{3}: reset: moving to HEAD
+[33m3ef7fb1[m HEAD@{4}: pull: Fast-forward
+[33mc2cbc13[m HEAD@{5}: pull: Fast-forward
+[33mad5bdb0[m HEAD@{6}: pull: Fast-forward
+[33m7cb744d[m HEAD@{7}: pull: Fast-forward
+[33m5932501[m HEAD@{8}: pull: Merge made by the 'ort' strategy.
+[33mca4e89d[m HEAD@{9}: commit: Completed User Homepage
+[33ma655b8c[m HEAD@{10}: reset: moving to HEAD
+[33ma655b8c[m HEAD@{11}: reset: moving to HEAD~1
+[33mb74ee96[m HEAD@{12}: commit: Stop tracking backend folder
+[33ma655b8c[m HEAD@{13}: commit: modification
+[33m2786bc5[m HEAD@{14}: commit: homepage
+[33m3ea8068[m HEAD@{15}: pull: Fast-forward
+[33m7fca70f[m HEAD@{16}: commit: sidebar modified
+[33m9c1bfb4[m HEAD@{17}: pull: Fast-forward
+[33m94faf5b[m HEAD@{18}: pull: Merge made by the 'ort' strategy.
+[33m8ddbaa2[m HEAD@{19}: commit: Added dashboard, elements unfunctional
+[33m59ebb3b[m HEAD@{20}: pull: Merge made by the 'ort' strategy.
+[33m68a35ef[m HEAD@{21}: commit: Login page copmpletely reworked
+[33mfe56cc5[m HEAD@{22}: commit: tailwind set up, .npmrc for managing npm packages installation errors, creating login & signup components, font set up, style & color pallete set up
+[33med4dd47[m HEAD@{23}: commit (merge): kinda merging master to main for early sync
+[33m35be472[m HEAD@{24}: Branch: renamed refs/heads/master to refs/heads/main
+[33m35be472[m HEAD@{26}: commit (initial): React Setup Structure & Files
