@@ -1,0 +1,46 @@
+server:
+  shutdown: graceful
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  endpoint:
+    health:
+      show-details: always
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        show_sql: false
+  datasource:
+    url: jdbc:mysql://seddit_db:3306/seddit?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456789
+  cache:
+    redis:
+      time-to-live: 10s
+  data:
+    redis:
+      host: seddit_redis
+      port: 6379
+  main:
+    allow-bean-definition-overriding: true
+
+springdoc:
+  packagesToScan: ir.ac.kntu.backend.controller
+  pathsToMatch: /api/**
+
+cookie-props:
+  security:
+    token-media: header
+    token-key: token
+
+jwt:
+  signing-key: "oYfCYRLuidExM8ghqmWFYRnwn8PaLKc95U6O396nM5s="

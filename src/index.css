@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'nature-font';
+  src: url('./assets/fonts/GVRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to ensure the app takes full height */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
